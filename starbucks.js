@@ -15,7 +15,7 @@ let contador = 0
 function esquerda() {
     contador--
     if (contador == 0) {
-        cafe.src = '../imagens/frappuccino1.png'
+        cafe.src = 'frappuccino1.png'
         fundo.style.backgroundColor = '#0FA870'
         transparente.style.color = '#0FA870'
         direito.style.backgroundColor = '#0FA870'
@@ -26,7 +26,7 @@ function esquerda() {
         texto.style.bottom = '330px'
         pink.style.backgroundColor = '#081A18'
     } else if (contador == 1) {
-        cafe.src = '../imagens/pink3.png'
+        cafe.src = 'pink3.png'
         fundo.style.backgroundColor = '#ff96e1'
         transparente.style.color = '#ff96e1'
         direito.style.backgroundColor = '#ff96e1'
@@ -42,7 +42,7 @@ function esquerda() {
         pink.style.backgroundColor = '#ff96e1'
         abacate.style.backgroundColor = '#081A18'
     } else if (contador == 2) {
-        cafe.src = '../imagens/abacate3.png'
+        cafe.src = 'abacate3.png'
         fundo.style.backgroundColor = '#ffffff'
         transparente.style.textShadow = '-5px 2px 1px #0FA870'
         transparente.style.color = '#ffffff'
@@ -58,7 +58,7 @@ function esquerda() {
         abacate.style.backgroundColor = '#ffffff'
         mocha.style.backgroundColor = '#081A18'
     }else if (contador == 3) {
-        cafe.src = '../imagens/mocha1.png'
+        cafe.src = 'mocha1.png'
         fundo.style.backgroundColor = '#0FA870'
         transparente.style.color = '#0FA870'
         direito.style.backgroundColor = '#0FA870'
@@ -79,7 +79,7 @@ function esquerda() {
 function direita(){
     contador++
     if (contador == 1) {
-        cafe.src = '../imagens/pink3.png'
+        cafe.src = 'pink3.png'
         fundo.style.backgroundColor = '#ff96e1'
         transparente.style.color = '#ff96e1'
         direito.style.backgroundColor = '#ff96e1'
@@ -90,7 +90,7 @@ function direita(){
         texto.style.bottom = '275px'
         pink.style.backgroundColor = '#ff96e1'
     } else if (contador == 2){
-        cafe.src = '../imagens/abacate3.png'
+        cafe.src = 'abacate3.png'
         fundo.style.backgroundColor = '#ffffff'
         transparente.style.textShadow = '-5px 2px 1px #0FA870'
         transparente.style.color = '#ffffff'
@@ -106,7 +106,7 @@ function direita(){
         pink.style.backgroundColor = '#081A18'
         abacate.style.backgroundColor = '#ffffff'
     } else if (contador == 3) {
-        cafe.src = '../imagens/mocha1.png'
+        cafe.src = 'mocha1.png'
         fundo.style.backgroundColor = '#985100'
         transparente.style.color = '#985100'
         direito.style.backgroundColor = '#985100'
@@ -123,7 +123,7 @@ function direita(){
         mocha.style.backgroundColor = '#985100'
         
     } else if (contador == 4) {
-        cafe.src = '../imagens/cup1.png'
+        cafe.src = 'cup1.png'
         fundo.style.backgroundColor = '#0FA870'
         transparente.style.color = '#0FA870'
         direito.style.backgroundColor = '#0FA870'
