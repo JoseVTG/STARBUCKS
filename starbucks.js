@@ -12,7 +12,7 @@ let abacate = document.getElementById('abacate')
 let mocha = document.getElementById('mocha')
 let cup = document.getElementById('cup')
 let contador = 0
-function esquerda() {
+function direita() {
     contador--
     if (contador == 0) {
         cafe.src = 'frappuccino1.png'
@@ -76,7 +76,7 @@ function esquerda() {
 
     }
 }
-function direita(){
+function esquerda(){
     contador++
     if (contador == 1) {
         cafe.src = 'pink3.png'
