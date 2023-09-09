@@ -59,7 +59,7 @@ function esquerda() {
         mocha.style.backgroundColor = '#081A18'
     }else if (contador == 3) {
         cafe.src = 'mocha1.png'
-        fundo.style.backgroundColor = '#0FA870'
+        fundo.style.backgroundColor = '#985100'
         transparente.style.color = '#0FA870'
         direito.style.backgroundColor = '#0FA870'
         esquerdo.style.backgroundColor = '#0FA870'
