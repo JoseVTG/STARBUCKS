@@ -60,9 +60,9 @@ function esquerda() {
     }else if (contador == 3) {
         cafe.src = 'mocha1.png'
         fundo.style.backgroundColor = '#985100'
-        transparente.style.color = '#0FA870'
-        direito.style.backgroundColor = '#0FA870'
-        esquerdo.style.backgroundColor = '#0FA870'
+        transparente.style.color = '#985100'
+        direito.style.backgroundColor = '#985100'
+        esquerdo.style.backgroundColor = '#985100'
         transparente.style.textShadow = '-5px 2px 1px #ffffff'
         branco.style.color = '#ffffff'
         botoes.style.position = 'relative'
