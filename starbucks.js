@@ -11,6 +11,7 @@ let pink = document.getElementById('pink')
 let abacate = document.getElementById('abacate')
 let mocha = document.getElementById('mocha')
 let cup = document.getElementById('cup')
+let tela = window.innerWidth
 let contador = 0
 function direita() {
     contador--
@@ -78,7 +79,7 @@ function direita() {
 }
 function esquerda(){
     contador++
-    if (contador == 1) {
+    if (contador == 1 && tela > 700 ) {
         cafe.src = 'pink3.png'
         fundo.style.backgroundColor = '#ff96e1'
         transparente.style.color = '#ff96e1'
@@ -89,7 +90,7 @@ function esquerda(){
         texto.style.position = 'relative'
         texto.style.bottom = '275px'
         pink.style.backgroundColor = '#ff96e1'
-    } else if (contador == 2){
+    } else if (contador == 2 && tela > 700 ){
         cafe.src = 'abacate3.png'
         fundo.style.backgroundColor = '#ffffff'
         transparente.style.textShadow = '-5px 2px 1px #0FA870'
@@ -105,7 +106,7 @@ function esquerda(){
         copo.style.bottom = '1720px'
         pink.style.backgroundColor = '#081A18'
         abacate.style.backgroundColor = '#ffffff'
-    } else if (contador == 3) {
+    } else if (contador == 3 && tela > 700 ) {
         cafe.src = 'mocha1.png'
         fundo.style.backgroundColor = '#985100'
         transparente.style.color = '#985100'
@@ -122,7 +123,7 @@ function esquerda(){
         abacate.style.backgroundColor = '#081A18'
         mocha.style.backgroundColor = '#985100'
         
-    } else if (contador == 4) {
+    } else if (contador == 4 && tela > 700 ) {
         cafe.src = 'cup1.png'
         fundo.style.backgroundColor = '#0FA870'
         transparente.style.color = '#0FA870'
@@ -138,5 +139,28 @@ function esquerda(){
         copo.style.bottom = '1820px'
         mocha.style.backgroundColor = '#081A18'
         cup.style.backgroundColor = '#0FA870'
+    }
+    if (tela < 700 && contador == 1) {
+        cafe.src = 'pink3.png'
+        direito.style.backgroundColor = 'transparent'
+        esquerdo.style.backgroundColor = 'transparent'
+        botoes.style.position = 'relative'
+        botoes.style.bottom = '290px'
+        texto.style.position = 'relative'
+        texto.style.bottom = '205px'
+        pink.style.backgroundColor = '#ff96e1'
+        copo.style.position = 'relative'
+        
+    } else if (tela < 700 && contador == 2) {
+        cafe.src = 'abacate3.png'
+        fundo.style.backgroundColor = '#ffffff'
+        botoes.style.position = 'relative'
+        botoes.style.bottom = '220px'
+        texto.style.position = 'relative'
+        texto.style.bottom = '260px'
+        copo.style.position = 'relative'
+        copo.style.bottom = '400px'
+        pink.style.backgroundColor = '#081A18'
+        abacate.style.backgroundColor = '#ffffff'
     }
 }
